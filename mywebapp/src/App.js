@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
 import React from 'react';
-import Navs from './components/Navs';
 import Box1 from './components/Box1';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -26,44 +25,27 @@ class App extends React.Component{
         <div className="App">
             <header className="App-header">
                 <Col>
-                    <Col >
                         <Row>
-                            <Navs/>
+                            <h2>Data Scientist at USAA</h2>
                         </Row>
-                    </Col>
-                    <br/>
-                        <Col sm={{ span: 4, offset: 1 }}>
-                            <h2>Data Scientist | Big Data Engineer | Visualizer</h2>
-                        </Col>
-                        <Col md={{ span: 3, offset: 0 }}>
-
-
-
-                            <h1>Welcome :) This is my internet home!</h1>
-
-
-                        </Col>
-
-
-
-                    <br/>
-                    <br/>
-
-                    <Row sm={10}>
-                        <Col sm={2}>
-
-                        </Col>
-                    <Col sm={7}>
-                        <Box1/>
-                    </Col>
+                        <Row>
+                            <h1>👨‍🎓  Welcome :) This is my </h1>
+                        </Row>
+                    <Row>
+                        <h1>internet home!</h1>
                     </Row>
-
-
+                    <br/>
+                    <br/>
+                    {/*<Row sm={10}>*/}
+                    {/*    <Col sm={2}>*/}
+                    {/*    </Col>*/}
+                    {/*    <Col sm={8}>*/}
+                    {/*        <Box1/>*/}
+                    {/*    </Col>*/}
+                    {/*    <Col sm={2}>*/}
+                    {/*    </Col>*/}
+                    {/*</Row>*/}
                 </Col>
-
-
-
-
             </header>
         </div>
   );

@@ -18,8 +18,6 @@ const Box1 = () => {
     return(
         <div className="Box1">
             <div>
-            </div>
-            <div>
                 <CardColumns>
                     <Card>
                         <a href="https://github.com/PujanMotiwala">
