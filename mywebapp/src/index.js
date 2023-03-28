@@ -8,7 +8,7 @@ import Row from "react-bootstrap/Row";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navs from "./components/routes/Navs";
 import About from './components/routes/About';
-import Blog from './components/routes/Blog';
+import Blog from './components/routes/Blogs/Blog';
 import Topics from './components/routes/Topics';
 import Products from './components/routes/Products';
 import Links from './components/routes/Links';

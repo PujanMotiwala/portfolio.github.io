@@ -35,7 +35,9 @@ class App extends React.Component{
                         <h1>internet home!</h1>
                     </Row>
                     <br/>
-                    <br/>
+                    <Row>
+                        <h1>internet home!</h1>
+                    </Row>
                     {/*<Row sm={10}>*/}
                     {/*    <Col sm={2}>*/}
                     {/*    </Col>*/}
