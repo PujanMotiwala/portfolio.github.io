@@ -12,7 +12,6 @@ import Blog from './components/routes/Blogs/Blog';
 import Topics from './components/routes/Topics';
 import Products from './components/routes/Products';
 import Links from './components/routes/Links';
-import Footer from "./components/Footer";
 
 
 ReactDOM.render(
@@ -27,7 +26,6 @@ ReactDOM.render(
                 <Route path="/products" component={Products} />
                 <Route path="/links" component={Links} />
             </Switch>
-            <Footer/>
         </Router>
     </React.StrictMode>,
   document.getElementById('root')

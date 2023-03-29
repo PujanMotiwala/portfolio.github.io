@@ -1,6 +1,6 @@
 body {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: auto;
+  margin-right: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -9,9 +9,6 @@ body {
   background-color: #e1e3dd;
 }
 
-.App-header {
-
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -21,15 +18,21 @@ code {
   max-width: 10%;
   background-color: #e1e3dd;
 }
+
 .navbar-brand{
-  margin-right: 10rem;
-  margin-left: 10rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
   font-size:2.00rem;
-  padding-top: 2.5rem !important;
-  padding-bottom: 2.5rem !important;
+}
+
+h4{
+  color: #20417a;
+  font-size: 1.70rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif !important;
 }
 
 h5{
+  text-align: left;
   font-feature-settings: "frac" 1;
   color: #2d3748;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
@@ -37,17 +40,13 @@ h5{
 
 h2{
   font-size: 1.125rem !important;
-  margin-left: 11rem;
   font-style: italic;
   color: #008483 !important;
 }
 
 h1{
-  margin-left: 11rem;
   line-height: 1.5;
-  font-size: 2em;
-  text-align: left;
-  font-weight: 700;
+  font-size: 2.25rem;
 }
 
 .bg-dark{
@@ -71,10 +70,17 @@ h1{
   background-image: url(./imgs/github.png);
 }
 
-.foot{
-  padding-top: 6rem !important;
-  padding-bottom: 6rem !important;
+.foot {
+  position: relative;
+  bottom: 0;
   margin-left: auto !important;
   margin-right: auto !important;
-  max-width: 64rem !important;
+  width: 100% !important;
+  text-align: right !important;
+}
+
+.intro{
+  background-color: rgba(255, 255, 255, 0.2);
+  top: 1rem;
+  width: auto;
 }

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import {LinkContainer} from 'react-router-bootstrap'
+import {LinkContainer} from 'react-router-bootstrap';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
 //href="index.html"
@@ -12,24 +12,24 @@ const Navs = () => {
     return(
         <div className="Navs">
             <div>
-                <Navbar bg="dark" variant="dark" expand="lg">
+                <Navbar bg="white" variant="dark" expand="md" fluid>
                     <Navbar.Brand href="/"><b>Pujan Motiwala</b></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
-                            <LinkContainer to="/About">
+                        <Nav className="ml-auto">
+                            <LinkContainer to="/about">
                                 <Nav.Link >About</Nav.Link>
                             </LinkContainer>
-                            <LinkContainer to="/Blog">
+                            <LinkContainer to="/blog">
                                 <Nav.Link>Blog</Nav.Link>
                             </LinkContainer>
-                            <LinkContainer to="/Topics">
+                            <LinkContainer to="/topics">
                                 <Nav.Link>Topics</Nav.Link>
                             </LinkContainer>
-                            <LinkContainer to="/Products">
+                            <LinkContainer to="/products">
                                 <Nav.Link>Products</Nav.Link>
                             </LinkContainer>
-                            <LinkContainer to="/Links">
+                            <LinkContainer to="/links">
                                 <Nav.Link>Links</Nav.Link>
                             </LinkContainer>
                         </Nav>
