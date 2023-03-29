@@ -1,0 +1,86 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e1e3dd;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.img-thumbnail {
+  max-width: 10%;
+  background-color: #e1e3dd;
+}
+
+.navbar-brand{
+  margin-right: 5rem;
+  margin-left: 5rem;
+  font-size:2.00rem;
+}
+
+h4{
+  color: #20417a;
+  font-size: 1.70rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif !important;
+}
+
+h5{
+  text-align: left;
+  font-feature-settings: "frac" 1;
+  color: #2d3748;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+h2{
+  font-size: 1.125rem !important;
+  font-style: italic;
+  color: #008483 !important;
+}
+
+h1{
+  line-height: 1.5;
+  font-size: 2.25rem;
+}
+
+.bg-dark{
+  background-color: #e1e3dd!important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 20px;
+  color: #000000;
+}
+
+.card-img-top{
+  height: 300px;
+}
+
+.github{
+  background-image: url(./imgs/github.png);
+}
+
+.foot {
+  position: relative;
+  bottom: 0;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+  text-align: right !important;
+}
+
+.intro{
+  background-color: rgba(255, 255, 255, 0.2);
+  top: 1rem;
+  width: auto;
+}
